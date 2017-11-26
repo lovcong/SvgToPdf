@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ConvertPdfApi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConvertPdfApi_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ConvertPdfApi/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ConvertPdfApi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Jersey-2.2" />
+          <element id="library" level="project" name="org.apache.xmlgraphics:batik-bridge:1.9" />
+          <element id="library" level="project" name="com.lowagie:itext:4.2.0" />
+          <element id="library" level="project" name="com.hynnet:json-lib:2.4" />
+        </element>
+        <element id="directory" name="resource" />
+      </element>
+    </root>
+  </artifact>
+</component>
